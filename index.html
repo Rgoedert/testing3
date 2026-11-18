@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mug Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+        }
+        .mug-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .mug-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .mug-card img {
+            width: 100%;
+            height: auto;
+        }
+        .mug-card h3, .mug-card p {
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Mug Collection</h1>
+        <p>Exploring the world of mugs through my collection</p>
+    </header>
+    <main>
+        <section class="mug-grid">
+            <div class="mug-card">
+                <img src="mug1.jpg" alt="Classic Ceramic Mug">
+                <h3>Classic Ceramic Mug</h3>
+                <p>A timeless white ceramic mug perfect for morning coffee.</p>
+            </div>
+            <div class="mug-card">
+                <img src="mug2.jpg" alt="Colorful Porcelain Mug">
+                <h3>Colorful Porcelain Mug</h3>
+                <p>A vibrant blue and yellow porcelain mug from a local artisan.</p>
+            </div>
+            <div class="mug-card">
+                <img src="mug3.jpg" alt="Insulated Stainless Steel Mug">
+                <h3>Insulated Stainless Steel Mug</h3>
+                <p>Keep your beverages hot or cold for hours with this sleek stainless steel mug.</p>
+            </div>
+            <div class="mug-card">
+                <img src="mug4.jpg" alt="Ceramic Travel Mug">
+                <h3>Ceramic Travel Mug</h3>
+                <p>A spill-proof ceramic mug designed for on-the-go lifestyles.</p>
+            </div>
+            <div class="mug-card">
+                <img src="mug5.jpg" alt="Hand-painted Ceramic Mug">
+                <h3>Hand-painted Ceramic Mug</h3>
+                <p>Unique design created by a local artist, each mug is one-of-a-kind.</p>
+            </div>
+            <div class="mug-card">
+                <img src="mug6.jpg" alt="Glass Mug">
+                <h3>Glass Mug</h3>
+                <p>Elegant glass mug that showcases the beauty of your hot chocolate.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
