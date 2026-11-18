@@ -12,5 +12,6 @@
 
 - **Initial Setup**: Repository initialized with standard structure.
 - **Task 1**: Updated README.md with task information.
+- **Task Rgoedert/testing3**: No specific changes mentioned in history.
 
 This file will be updated as tasks are completed.
