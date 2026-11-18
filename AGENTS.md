@@ -11,5 +11,6 @@
 ## History
 
 - **Initial Setup**: Repository initialized with standard structure.
+- **Task Update README**: Updated README.md with basic description.
 
 This file will be updated as tasks are completed.
