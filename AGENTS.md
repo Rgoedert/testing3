@@ -11,5 +11,6 @@
 ## History
 
 - **Initial Setup**: Repository initialized with standard structure.
+- **Mug Collection Page**: Created a webpage for a Mug collection.
 
 This file will be updated as tasks are completed.
